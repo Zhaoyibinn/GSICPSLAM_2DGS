@@ -208,7 +208,7 @@ class Mapper(SLAMParameters):
                     train_idx = random.choice(range(len(self.mapping_cams)))
                     random_train = random_train + 1
                     if random_train >=15:
-                        print("已经训练了5次随机了")
+                        # print("已经训练了5次随机了")
                         # 无论ICP有多快，都只进行15轮GS
                         continue
                     random_num = random_num + 1

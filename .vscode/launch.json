@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "train",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/gs_icp_slam.py",
             "pythonPath":"/home/zhaoyibin/anaconda3/envs/gsicpslam_2d/bin/python",
